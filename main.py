@@ -20,10 +20,10 @@ conversor = Conversor()
 
 # Ejemplo 1
 cantidad = 100
-resultado = Conversor.convertir(cantidad, usd, ars)
-print(f"{usd.simbolo}{cantidad} equivalen a: {ars.simbolo}{resultado:.2f}")
+resultado = conversor.convertir(cantidad, usd, ars)
+print(f"{usd.simbolo} {cantidad} equivalen a: {ars.simbolo} {resultado:.2f}")
 
 # Ejemplo 2
 cantidad = 250.73
-resultado = Conversor.convertir(cantidad, eur, usd)
-print(f"{eur.simbolo}{cantidad} equivalen a: {usd.simbolo}{resultado:.2f}")
+resultado = conversor.convertir(cantidad, eur, usd)
+print(f"{eur.simbolo} {cantidad} equivalen a: {usd.simbolo} {resultado:.2f}")
